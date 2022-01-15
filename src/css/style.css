@@ -1,0 +1,144 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+h1
+{
+    font-size: 28px;
+    text-align: center;
+}
+
+input, button
+{
+    padding: 10px 25px;
+    margin: 5px;
+    border: 1px solid grey;
+    font-size: 16px;
+    color: rgba(0,0,0,0.7);
+}
+
+input.fields
+{
+    width: 100%;
+}
+
+
+input:focus, input:active, input:hover
+{
+    border: 2px solid rgb(78, 155, 255);
+    border-radius: none;
+}
+
+img
+{
+    width: 100%;
+}
+
+.container
+{
+    padding: 2em 10%;
+}
+
+.row
+{
+    display: flex;
+    flex-wrap: nowrap;  
+}
+
+.full-width
+{
+    flex-grow: 1;
+}
+
+.btn
+{
+    padding: 0.8em 3em;
+    border: 2px solid #f2f2f2;
+    cursor: pointer;
+}
+
+.btn-dark
+{
+    background: rgb(41, 41, 41);
+    color: #fff;
+}
+
+/* .btn-dark:hover
+{
+
+} */
+
+.header
+{
+    background: #f2f2f2;
+    padding: 1.5em;
+}
+
+.search-bar
+{
+    padding: 2em;
+}
+
+.book-collection
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.book-module
+{
+    width: 300px;
+    max-width: 300px;
+    padding: 2em 1em 2em 1em;
+    box-shadow: 0px 0px 18px 0px#d6d6d6;
+    max-height: 550px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.book-image img
+{
+    width: 200px;
+}
+
+.book-body
+{
+    margin: 15px 0;
+}
+
+.book-body h2
+{
+    font-size: 18px;
+}
+
+.book-body p 
+{
+    margin: 10px 0;
+}
+
+.book-footer
+{
+    margin:15px 0;
+}
+
+.book-footer button
+{
+    background: #829900;
+    color: #fff;
+    border: 1px solid #829900;
+}
+
+.book-footer button:hover
+{
+    border: 1px solid #829900;
+    background: #fff;
+    color: #829900;
+}
