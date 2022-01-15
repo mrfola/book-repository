@@ -14,7 +14,8 @@ class BookModule extends React.Component
                     <p>{this.props.bookDescription}</p>
                 </div>
                 <div className="book-footer">
-                    <a href={this.props.bookLink}><button className="btn">View</button></a>
+                    <a href={this.props.bookLink}><button className="book-btn">View</button></a>
+                    <a href={this.props.bookLink}><button className="book-btn">Add To Reading List</button></a>
                 </div>
             </div>
         );

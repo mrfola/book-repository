@@ -49,10 +49,12 @@ class BookContainer extends React.Component
     render()
     {
         return(
-            <div className="container">
+            <div className="container-fluid">
                 <Header/>
-                <SearchBar searchBooks={this.searchBooks.bind(this)}/>
-                <BookCollection books={this.state.books} />
+                <div className="container">
+                    <SearchBar searchBooks={this.searchBooks.bind(this)}/>
+                    <BookCollection books={this.state.books} />
+                </div>
             </div>
         );        
     }
