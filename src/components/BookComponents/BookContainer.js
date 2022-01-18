@@ -1,8 +1,7 @@
 import React from "react";
-import Header from "./Header";
-import SearchBar from "./SearchBar";
+import SearchBar from "../SearchBar";
 import BookCollection from "./BookCollection";
-import '../css/style.css';
+import '../../css/style.css';
 
 class BookContainer extends React.Component
 {
@@ -49,13 +48,10 @@ class BookContainer extends React.Component
     render()
     {
         return(
-            <div className="container-fluid">
-                <Header/>
-                <div className="container">
-                    <SearchBar searchBooks={this.searchBooks.bind(this)}/>
-                    <BookCollection books={this.state.books} />
-                </div>
-            </div>
+           <div>
+                <SearchBar searchBooks={this.searchBooks.bind(this)}/>
+                <BookCollection books={this.state.books} />
+           </div>       
         );        
     }
 }

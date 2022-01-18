@@ -19,18 +19,42 @@ h1
     text-align: center;
 }
 
+img
+{
+    width: 100%;
+}
+
 input, button
 {
     padding: 10px 25px;
     margin: 5px;
-    border: 1px solid grey;
+    border: 2px solid grey;
     font-size: 16px;
     color: var(--dark-color);
 }
 
-input.fields
+button
+{
+    cursor: pointer;    
+}
+
+input.form-input, button.form-button
 {
     width: 100%;
+}
+
+button.form-button
+{
+    background: rgb(29, 31, 49);
+    border: 2px solid rgb(29, 31, 49);
+    color: white;   
+}
+
+button.form-button:hover
+{
+    background: white;
+    border: 2px solid rgb(29, 31, 49);
+    color: rgb(29, 31, 49);
 }
 
 
@@ -40,9 +64,15 @@ input:focus, input:active, input:hover
     border-radius: none;
 }
 
-img
+.mid-form-size
 {
     width: 100%;
+    max-width: 650px;
+}
+
+.center
+{
+    margin: 0 auto;
 }
 
 .container
@@ -94,6 +124,12 @@ img
     padding: 1.5em;
 }
 
+.header a
+{
+    text-decoration: none;
+    color: var(--dark-color);
+}
+
 .navigation-links
 {
     display: flex;
@@ -120,7 +156,6 @@ img
 {
     text-decoration: underline;
 }
-
 
 .search-bar
 {
@@ -191,4 +226,14 @@ img
     padding: 0.8em 1em;
     border: 2px solid #f2f2f2;
     cursor: pointer;
+}
+
+.login h1
+{
+    padding:2em 0;
+}
+
+.sign-up h1
+{
+    padding:2em 0;
 }

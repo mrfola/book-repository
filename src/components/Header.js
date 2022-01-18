@@ -6,12 +6,12 @@ class Header extends React.Component
     {
         return (
             <div className="header">
-                <h1>Book Search</h1>
+                <a href="/"><h1>Book Search</h1></a>
 
-                <nav class="navigation-bar">
-                    <ul class="row navigation-links">
-                        <li><a href="#">Login</a></li>
-                        <li><a href="#">Sign Up</a></li>
+                <nav className="navigation-bar">
+                    <ul className="row navigation-links">
+                        <li><a href="/login">Login</a></li>
+                        <li><a href="/sign-up">Sign Up</a></li>
                     </ul>
                 </nav>
             </div>

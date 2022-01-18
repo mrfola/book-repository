@@ -20,7 +20,7 @@ class SearchBar extends React.Component
         return (
             <div className="search-bar">
                 <form className="row" onSubmit={this.searchBooks}>
-                    <input className="fields" type="text"   placeholder="Search any book" required/>
+                    <input className="form-input" type="text"   placeholder="Search any book" required/>
                     <button type="submit" className="btn btn-dark search-button">Search</button>
                 </form>
             </div>
