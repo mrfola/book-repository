@@ -11,16 +11,16 @@ class BookCollection extends React.Component
                  {this.props.books.map(function(book)
                 {
                     const {id} = book;
-                    let thumbnail;
+                    // let thumbnail;
 
-                    if (typeof(book.volumeInfo.imageLinks.thumbnail) !== 'undefined')
-                    {
-                        thumbnail = book.volumeInfo.imageLinks.thumbnail;
+                    // if (typeof(book.volumeInfo.imageLinks.thumbnail) !== 'undefined')
+                    // {
+                    //     thumbnail = book.volumeInfo.imageLinks.thumbnail;
 
-                    } else
-                    {
-                        thumbnail = 'https://via.placeholder.com/200x300.png?text=Image+Not+Found';
-                    }
+                    // } else
+                    // {
+                    //     thumbnail = 'https://via.placeholder.com/200x300.png?text=Image+Not+Found';
+                    // }
                     const {title} = book.volumeInfo;
                     const {subtitle} = book.volumeInfo;
                     const {infoLink} = book.volumeInfo;
@@ -29,7 +29,7 @@ class BookCollection extends React.Component
 
                     return (
                         <BookModule key={id}
-                        bookImageUrl = {thumbnail}
+                        bookImageUrl = "#"
                         bookTitle= {title}
                         bookDescription = {subtitle}
                         bookLink = {infoLink}
