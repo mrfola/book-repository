@@ -2,7 +2,7 @@
 
 This is a web application built in React.js that allows users to find books they are interested in and save it to their own personal curated list so they can access it later.
 
-The live project can be seen here: [Book Repository](https://book-repository.netlify.app/)
+The live project can be seen here: [Book Repository](#)
 
 ## Concept
 
