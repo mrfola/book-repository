@@ -6,11 +6,11 @@ The live project can be seen here: [Book Repository](#)
 
 ## Concept
 
-The idea behind this project is to build a platform that makes it easy for book-lovers to find, save and keep track of all their books in a simple and flexible manner.. 
+The idea behind this project is to build a platform that makes it easy for book-lovers to find, save and keep track of all their books in a simple and flexible manner. 
 
-The idea is to help users to keep track of all their books (the ones they've read, they are currently reading or the ones they wish to read), organize it (according to lists, tags and categories) and even share their reading list with other people to encourage them to read likewise. 
+Users should be able to easily manage all their books (the ones they've read, they are currently reading or the ones they wish to read), organize it (according to lists, tags and categories) and even share their reading list with other people to encourage them to read likewise. 
 
-It is useful for students, professors, researchers or just book enthusiasts. 
+The platform is useful for students, professors, researchers or just book enthusiasts. 
 
 The project is still in it's initial stages but many new additions are in the works and will be added over the next few months. Some of those change are listed [here](#future-features). 
 
